@@ -1,0 +1,115 @@
+header {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 31%, rgba(82, 212, 195, 1) 74%);
+    padding: 40px;
+}
+
+nav {
+    background-color: #52d4c3;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav .collapse a {
+    color: #fff;
+}
+
+nav .dropdown-menu {
+    background-color: #52d4c3;
+}
+
+.main {
+    background-image: url("../img/Imagen_Principal.jpg"); height:650px;;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+    padding: 200px;
+}
+
+.main p {
+    color: #4aa0dc;
+    font-size: 50px;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3, h4 {
+    color: #4aa0dc;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section#quienes-somos img,
+section#nuestros-servicios img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.servicio img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.enlaces .linea {
+    border-left: solid;
+    border-right: solid;
+    margin: 0 5px 0 5px;
+    padding: 0 12px 0 12px;
+}
+
+footer {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 31%, rgba(82, 212, 195, 1) 74%);
+    display: flex;
+    justify-content: center
+}
+
+footer .copy {
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio {
+        flex: 1 1 100%;
+        max-width: 300px;
+    }
+}

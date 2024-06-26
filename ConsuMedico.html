@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Indica la codificación de caracteres a utlizar - Universal-->
+    <meta charset="UTF-8" />
+    <meta name="descripción" content="Interfaces Responsivas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="/estilos css/consumedico.css" />
+    <title>EPS Vida</title>
+  </head>
+
+  <body>
+    <div id="contenedor">
+      <header class="bg-secondary text-white" id="encabezado">
+        <h1>
+          <center>Centro Médico Salud y Vida</center>
+        </h1>
+      </header>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample03"
+          aria-controls="navbarsExample03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="RegUsuarios.html"
+                >Usuarios</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown03"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Pacientes</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li>
+                  <a class="dropdown-item" href="RegPaciente.html"
+                    >Registrar Pacientes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ModifPaciente.html"
+                    >Modificar Pacientes</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown03"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Citas</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li>
+                  <a class="dropdown-item" href="RegCita.html"
+                    >Registrar Citas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ModCita.html"
+                    >Modificar Citas</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown03"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Médicos</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li>
+                  <a class="dropdown-item" href="RegMedico.html"
+                    >Registrar Médico</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ModifMedico.html"
+                    >Modificar Médico</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ConsuMedico.html"
+                    >Consultar Médico</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown03"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Tratamientos</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li>
+                  <a class="dropdown-item" href="RegTratamiento.html"
+                    >Registrar Tratamientos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ModifTratamiento.html"
+                    >Modificar Tratamientos</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Area de Contenido Específica de la Página o Aplicación-->
+
+    <center class="main">
+      <div class="col-sm-4">
+        <form action="#" method="post" enctype="text/plain">
+          <h1 class="h3 mb-4 mt-5">Consultar Médico</h1>
+
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="name@example.com"
+            />
+            <label for="nombre">Ingrese Nombre Medico</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="apellido"
+              placeholder="Password"
+            />
+            <label for="apellido">Ingrese sus Apellidos</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="especialidad"
+              placeholder="Rol"
+            />
+            <label for="especialidad">Ingrese su Especialidad</label>
+          </div>
+          <button class="w-80 btn btn-md btn-primary mb-3 mt-5" type="submit">
+            Consultar Médico
+          </button>
+        </form>
+        <br />
+      </div>
+    </center>
+
+    <center class="bg-secondary text-white bg-gradient p-2" id="pie">
+      <div class="enlaces">
+        <a href="">INICIO</a>
+        <a href="" class="linea">USUARIO</a>
+        <a href="">CONTACTO</a>
+      </div>
+      <h4 class="mt-4 mb-4">
+        <center>Centro Médico Salud y Vida</center>
+        <center>Av. Principal Cartagena, Colombia</center>
+      </h4>
+    </center>
+
+    <footer>
+      <div class="copy">
+        <p>&#169; 2006 Salud y Vida</p>
+      </div>
+    </footer>
+
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+header {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 31%, rgba(82, 212, 195, 1) 74%);
+    padding: 40px;
+}
+
+nav {
+    background-color: #52d4c3;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav .collapse a {
+    color: #fff;
+}
+
+nav .dropdown-menu {
+    background-color: #52d4c3;
+}
+
+h2, h3, h4 {
+    color: #4aa0dc;
+}
+
+.main {
+    background-image: url("../img/Imagen\ 1.jpg"); width: px;;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1350px;
+    padding: 90px;
+    padding-bottom: 100px;
+}
+
+.main div form {
+    border: solid 3px #4aa0dc;
+    padding: 30px;
+}
+
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.enlaces .linea {
+    border-left: solid;
+    border-right: solid;
+    margin: 0 5px 0 5px;
+    padding: 0 12px 0 12px;
+}
+
+footer {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 31%, rgba(82, 212, 195, 1) 74%);
+    display: flex;
+    justify-content: center
+}
+
+footer .copy {
+    padding: 15px;
+}

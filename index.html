@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!--Indica la codificación de caracteres a utlizar - Universal-->
+	<meta charset="UTF-8">
+	<meta name="descripción" content="Interfaces Responsivas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS de Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="/estilos css/styles.css">
+	<title>EPS Vida</title>
+
+</head>
+
+<body>
+	<div id="contenedor">
+		<header class="bg-secondary text-white" id="encabezado">
+			<h1>
+				<center>Centro Médico Salud y Vida</center>
+			</h1>
+		</header>
+	</div>
+
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Inicio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+				aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExample03">
+				<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="RegUsuarios.html">Usuarios</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+							aria-expanded="false">Pacientes</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown03">
+							<li><a class="dropdown-item" href="RegPaciente.html">Registrar Pacientes</a></li>
+							<li><a class="dropdown-item" href="ModifPaciente.html">Modificar Pacientes</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+							aria-expanded="false">Citas</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown03">
+							<li><a class="dropdown-item" href="RegCita.html">Registrar Citas</a></li>
+							<li><a class="dropdown-item" href="ModCita.html">Modificar Citas</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+							aria-expanded="false">Médicos</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown03">
+							<li><a class="dropdown-item" href="RegMedico.html">Registrar Médico</a></li>
+							<li><a class="dropdown-item" href="ModifMedico.html">Modificar Médico</a></li>
+							<li><a class="dropdown-item" href="ConsuMedico.html">Consultar Médico</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+							aria-expanded="false">Tratamientos</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown03">
+							<li><a class="dropdown-item" href="RegTratamiento.html">Registrar Tratamientos</a></li>
+							<li><a class="dropdown-item" href="ModifTratamiento.html">Modificar Tratamientos</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<form>
+					<input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<center class="main">
+		<p>"Cuidando tu salud, mejorando tu vida."</p>
+	</center>
+
+	<!--Area de Contenido Específica de la Página o Aplicación-->
+	<center class="mt-5 mb-4">
+		<h2>Quiénes Somos</h2>
+		<p> En el Centro Médico Salud y Vida, nos dedicamos a ofrecer servicios médicos de alta calidad. Contamos con un
+			equipo de profesionales altamente capacitados y comprometidos con la salud y el bienestar de nuestros
+			pacientes. Nuestra misión es proporcionar una atención médica integral y personalizada, basada en la ética y
+			el respeto. </p>
+	</center>
+
+	<center class="mt-5 mb-4">
+		<h2>Nuestros Servicios</h2>
+		<p> En el Centro Médico Salud y Vida, estamos comprometidos a proporcionar una atención médica integral y de
+			alta calidad para usted y su familia. Ofrecemos una amplia gama de servicios diseñados para cubrir todas sus
+			necesidades de salud, desde la atención primaria hasta especialidades avanzadas. Nuestro equipo de
+			profesionales altamente capacitados trabaja con dedicación y empatía para garantizar su bienestar en cada
+			etapa de la vida. </p>
+	</center>
+
+	<section id="nuestros-servicios">
+		<div class="servicios">
+			<div class="servicio">
+				<img src="img/consulta-general.jpg" alt="Consulta General">
+				<h3>Consulta General</h3>
+				<p>Ofrecemos consultas generales para todas las edades, atendiendo diversas patologías y brindando
+					orientación médica profesional.</p>
+			</div>
+			<div class="servicio">
+				<img src="img/pediatria.jpg" alt="Pediatría">
+				<h3>Pediatría</h3>
+				<p>Nuestros pediatras se encargan del cuidado y seguimiento de la salud de los más pequeños, desde
+					recién nacidos hasta adolescentes.</p>
+			</div>
+			<div class="servicio">
+				<img src="img/odontologia.jpg" alt="Odontología">
+				<h3>Odontología</h3>
+				<p>Contamos con un completo servicio de odontología para el cuidado y tratamiento de la salud bucal de
+					nuestros pacientes.</p>
+			</div>
+			<div class="servicio">
+				<img src="img/ginecologia.jpg" alt="Ginecología">
+				<h3>Ginecología</h3>
+				<p>Nuestros especialistas en ginecología ofrecen atención integral para la salud femenina, desde
+					controles rutinarios hasta tratamientos específicos.</p>
+			</div>
+		</div>
+	</section>
+
+	<center class="bg-secondary text-white bg-gradient p-2" id="pie">
+		<div class="enlaces">
+			<a href="">INICIO</a>
+			<a href="" class="linea">USUARIO</a>
+			<a href="">CONTACTO</a>
+		</div>
+		<h4 class="mt-4 mb-4">
+			<center>Centro Médico Salud y Vida</center>
+			<center>Av. Principal Cartagena, Colombia</center>
+		</h4>
+	</center>
+
+	<footer>
+		<div class="copy">
+			<p>&#169; 2006 Salud y Vida</p>
+		</div>
+	</footer>
+
+
+	<!-- Librería jQuery requerida por los plugins de JavaScript -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- Todos los plugins JavaScript de Bootstrap (también se pueden incluir archivos JavaScript individuales de los únicos plugins que se utilicen)-->
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
